@@ -14,3 +14,7 @@
 .subMenuPadding:hover {
   background-color: #e9ecef;
 }
+
+.linkSpan {
+  margin-left: 1rem;
+}

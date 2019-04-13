@@ -8,11 +8,67 @@
     <!--Bootstrap CSS-->
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.css" />
     <title>
       bootstrap
     </title>
   </head>
   <body>
+    <nav>
+      <div class="container-fluid">
+        <ul class="nav">
+          <li class="nav-link dropdown">
+            <a
+              class="nav-item dropdown-toggle"
+              href="#"
+              id="dropdownMenuLink"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Link 1</a
+            >
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#">Sub link 1</a>
+              <a class="dropdown-item" href="#">Sub link 2</a>
+              <a class="dropdown-item" href="#">Sub link 3</a>
+            </div>
+          </li>
+          <li class="nav-link dropdown">
+            <a
+              class="nav-item dropdown-toggle"
+              href="#"
+              id="dropdownMenuLink"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Link 2</a
+            >
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#">Sub link 1</a>
+              <a class="dropdown-item" href="#">Sub link 2</a>
+              <a class="dropdown-item" href="#">Sub link 3</a>
+            </div>
+          </li>
+          <li class="nav-link dropdown">
+            <a
+              class="nav-item dropdown-toggle"
+              href="#"
+              id="dropdownMenuLink"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Link 3</a
+            >
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#">Sub link 1</a>
+              <a class="dropdown-item" href="#">Sub link 2</a>
+              <a class="dropdown-item" href="#">Sub link 3</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
     <header>
       <div class="jumbotron">
         <h1>
@@ -26,7 +82,9 @@
         <div id="sideMenu" class="col-md-2">
           <div class="row card-header">
             <div class="col card-title">
-              <a href="#" data-target="#link1" data-toggle="collapse">Link 1</a>
+              <a href="#" data-target="#link1" data-toggle="collapse"
+                >Link 1<span class="fas fa-angle-down linkSpan"></span
+              ></a>
             </div>
           </div>
           <div id="link1" class="collapse">
@@ -36,7 +94,9 @@
           </div>
           <div class="row card-header">
             <div class="col card-title">
-              <a href="#" data-target="#link2" data-toggle="collapse">Link 2</a>
+              <a href="#" data-target="#link2" data-toggle="collapse"
+                >Link 2<span class="fas fa-angle-down linkSpan"></span
+              ></a>
             </div>
           </div>
           <div id="link2" class="collapse">
@@ -46,7 +106,9 @@
           </div>
           <div class="row card-header">
             <div class="col card-title">
-              <a href="#" data-target="#link3" data-toggle="collapse">Link 3</a>
+              <a href="#" data-target="#link3" data-toggle="collapse"
+                >Link 3<span class="fas fa-angle-down linkSpan"></span
+              ></a>
             </div>
           </div>
           <div id="link3" class="collapse">
@@ -63,6 +125,7 @@
     <!--JQuery and popper js-->
     <script src="js/jquery.js"></script>
     <script src="js/popper.js"></script>
+    <script src="js/all.js"></script>
     <script src="js/bootstrap.bundle.js"></script>
   </body>
 </html>
